@@ -1,51 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Student Success Portal</title>
 </head>
+
 <body>
-    <a href = "#main">Skip to Main Content</a>
-    <header>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
-        <nav>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li class="active"><a href = "foodpantry.html">Maize & Blue Cupboard</a></li>
+    <a href="#main" class="skip-to-content">Skip to Main Content</a>
+
+    <header class = "page-header">
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" class="header-logo">
+        <nav class="navigation-bars">
+        <label for="toggle" class="toggleBtn">&#9776;</label>
+        <input type="checkbox" id="toggle">
+            <ul class="nav-menu">
+                <li><a href = "index.html" class="active-page">Home</a></li>
+                <li><a href = "foodpantry.html">Maize & Blue Cupboard</a></li>
                 <li><a href = "cew.html">Center for the Education of Women</a></li>
                 <li><a href = "basicneeds.html">Basic Needs</a></li>
             </ul>
         </nav>
-        <h1>Student Success and Resources Portal</h1>
-
+        <h1 class = "page-title">Student Success and Resources Portal</h1>
     </header>
-    <main id = "main">
+
+    <main id="main" class = "main-content">
 
         <section>
-            <h2>Maize & Blue Cupboard</h2>
-            <p>We're here to make sure every that student has easy access to delicious, healthy food and the tools to prepare it for themselves or others!</p>
-            <img src="images/Maize-and-Blue-Cupboard.jpg" alt="Food on Shelves at the Maize and Blue Cupboard">
+            <h2 class = h2>Maize & Blue Cupboard</h2>
+            <p class = "p">We're here to make sure every student has easy access to delicious, healthy food and the tools to prepare
+                it for themselves or others!</p>
+            <img src="images/Maize-and-Blue-Cupboard.jpg" alt="Food on Shelves at the Maize and Blue Cupboard" class="section-image">
         </section>
 
         <section>
-            <h2>Center for the Education of Women</h2>
-            <p>At CEW+, we help you overcome challenges by offering academic, financial, and professional support to help you achieve your full potential. Originally created to support women in higher education, we now uplift all underserved communities at U-M and beyond. Through career and education counseling, financial aid, workshops, events, and a welcoming, diverse community, we’re dedicated to empowering you. We are CEW+, and we’re here to help you succeed.</p>
-            <img src="images/cew_people.jpg" alt="People smiling while working">
+            <h2 class = h2>Center for the Education of Women</h2>
+            <p class = "p">At CEW+, we help you overcome challenges by offering academic, financial, and professional support to
+                help you achieve your full potential. Originally created to support women in higher education, we now
+                uplift all underserved communities at U-M and beyond. Through career and education counseling, financial
+                aid, workshops, events, and a welcoming, diverse community, we’re dedicated to empowering you. We are
+                CEW+, and we’re here to help you succeed.</p>
+            <img src="images/cew_people.jpg" alt="People smiling while working" class="section-image">
         </section>
 
         <section>
-            <h2>Basic Needs</h2>
-            <p>The Basic Needs website is designed for University of Michigan students who may be facing challenges related to food, housing, and financial security. It serves as a central resource for students seeking assistance with essential needs, offering information on campus and community services that provide support. Whether you’re dealing with food insecurity, housing instability, or financial stress, the Basic Needs website connects you to the resources and guidance needed to help you thrive both academically and personally at U-M.</p>
-            <img src="images/basic_needs_bus.jpg" alt="University bus stop">
+            <h2 class = "h2">Basic Needs</h2>
+            <p class = "p">The Basic Needs website is designed for University of Michigan students who may be facing challenges
+                related to food, housing, and financial security. It serves as a central resource for students seeking
+                assistance with essential needs, offering information on campus and community services that provide
+                support. Whether you’re dealing with food insecurity, housing instability, or financial stress, the
+                Basic Needs website connects you to the resources and guidance needed to help you thrive both
+                academically and personally at U-M.</p>
+            <img src="images/basic_needs_bus.jpg" alt="University bus stop" class="section-image">
         </section>
 
     </main>
-    <footer>
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
+
+    <footer class="site-footer">
+        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a></p>
     </footer>
+
 </body>
 </html>
