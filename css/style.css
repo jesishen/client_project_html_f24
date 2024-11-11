@@ -7,7 +7,7 @@
 
 /* All */
 body {
-    font-family: "Arial", sans-serif;
+    font-family: "Montserrat", sans-serif;
     line-height: 1.6;
     background-color: #F4F4F4;
     color: #333;
@@ -36,7 +36,6 @@ body {
 }
 
 .page-title {
-    font-family: "Cambria";
     font-size: 1.2em;
     color: white;
 }
@@ -54,7 +53,6 @@ body {
 .nav-menu {
     background-color: #004B87;
     color: white;
-    font: "Georgia";
     display: none;
     justify-content: center;
     list-style: none;
@@ -100,7 +98,6 @@ section {
     color: #FEDD00;
     padding: 10px 20px;
     font-size: 1em;
-    font-family: "Arial", sans-serif;
     text-align: center;
     text-decoration: none;
     border: none;
@@ -159,7 +156,6 @@ section {
 
 /* Text */
 h2 {
-    font-family: "Georgia", sans-serif;
     font-weight: 700;
     font-size: 1.5em;
     color: #00274C;
@@ -167,7 +163,6 @@ h2 {
 }
 
 p {
-    font-family: "Roboto", sans-serif;
     margin-bottom: 15px;
     line-height: 1.6;
     font-size: 0.9em;
@@ -207,4 +202,87 @@ input {
 
 .navigation-bars {
     display: block;
+}
+
+.error-page {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+}
+
+.error-page h1 {
+    font-size: 2.5em;
+    color: #00274C;
+    margin-bottom: 20px;
+}
+
+.error-page p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.back-home {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #00274C;
+    color: #FEDD00; 
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.back-home:hover {
+    background-color: #004B87;
+    color: #fff;
+}
+
+
+@media only screen and (min-width:550px){
+    .toggleBtn {
+        display: none;
+    }
+
+    .page-header {
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(/images/onsp_hp_banner.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+
+    .header-logo {
+        width: 120px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .nav-menu {
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px 20px;
+    }
+
+    .nav-menu li {
+        margin: 0 20px;
+    }
+
+    .nav-menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 1em;
+    }
+
+    .page-title {
+        height: 100%;
+    }
+
+
+
 }

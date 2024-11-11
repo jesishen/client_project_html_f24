@@ -12,7 +12,7 @@
     <a href="#main" class="skip-to-content">Skip to Main Content</a>
 
     <header class="page-header">
-        <img src="images/basic_needs_bus.jpg" alt="University bus stop" class = "header-logo">
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" class="header-logo">
         <nav class="navigation-bars">
         <label for="toggle" class="toggleBtn">&#9776;</label>
         <input type="checkbox" id="toggle">
@@ -27,6 +27,8 @@
 
     </header>
     <main id="main" class="main-content">
+
+        <img src="images/basic_needs_bus.jpg" alt="University bus stop" class = "title-img">
 
         <section>
             <h2 class = "h2">Who Are We?</h2>
@@ -45,17 +47,21 @@
                     <li><strong>Housing and Transportation: </strong>Access resources for housing and transportation challenges.</li>
                 </ul>
             </section>
-            
+
             <h2 class = "h2">Don't hesitate to contact us if you need any of these resources!</h2>
             <img src="images/UMSI_CampusFall_UMSIBackpack_02.jpg" alt="UMSI backpack" class = "section-image">
         </section>
 
     </main>
-    
-    <footer class="site-footer">
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a></p>
+
+    <footer>
+        <p>© Copyrights <span id="year"></span> by CodexWorld. All rights reserved.</p>
     </footer>
-    
+
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+
 </body>
 
 </html>

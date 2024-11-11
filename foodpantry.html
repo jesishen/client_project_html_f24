@@ -12,7 +12,7 @@
     <a href="#main" class="skip-to-content">Skip to Main Content</a>
 
     <header class="page-header">
-        <img src="images/Maize-and-Blue-Cupboard.jpg" alt="Food on Shelves at the Maize and Blue Cupboard" class="header-logo">
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" class="header-logo">
         <nav class="navigation-bars">
         <label for="toggle" class="toggleBtn">&#9776;</label>
         <input type="checkbox" id="toggle">
@@ -27,6 +27,8 @@
     </header>
 
     <main id="main" class="main-content">
+
+        <img src="images/Maize-and-Blue-Cupboard.jpg" alt="Food on Shelves at the Maize and Blue Cupboard" class="title-img">
 
         <section>
             <h2>Who Are We?</h2>
@@ -54,11 +56,16 @@
             <p><a href="https://calendly.com/mbcappointments/mbc-shopping-appointments?month=2024-09" class = "button">Schedule a visit</a>.</p>
             <img src="images/maize-and-blue-building.jpg" alt="Maize and Blue building" class="section-image">
         </section>
-        
+
     </main>
 
-    <footer class="site-footer">
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a></p>
+    <footer>
+        <p>© Copyrights <span id="year"></span> by CodexWorld. All rights reserved.</p>
     </footer>
+
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+
 </body>
 </html>

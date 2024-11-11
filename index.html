@@ -35,6 +35,7 @@
             <p class = "p">We're here to make sure every student has easy access to delicious, healthy food and the tools to prepare
                 it for themselves or others!</p>
             <img src="images/Maize-and-Blue-Cupboard.jpg" alt="Food on Shelves at the Maize and Blue Cupboard" class="section-image">
+
         </section>
 
         <section>
@@ -58,11 +59,17 @@
             <img src="images/basic_needs_bus.jpg" alt="University bus stop" class="section-image">
         </section>
 
+        
+
     </main>
 
-    <footer class="site-footer">
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a></p>
+    <footer>
+        <p>© Copyrights <span id="year"></span> by CodexWorld. All rights reserved.</p>
     </footer>
+
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 
 </body>
 </html>
